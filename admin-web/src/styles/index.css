@@ -1,0 +1,55 @@
+:root {
+  --mixc-primary: #1e2a3a;
+  --mixc-accent: #c9a96e;
+  --mixc-bg: #f0f2f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--mixc-bg);
+  color: #303133;
+}
+
+.page-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.page-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--mixc-primary);
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #1e2a3a 0%, #2d3f54 100%);
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.stat-card .label {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.stat-card .value {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 8px;
+  color: var(--mixc-accent);
+}
